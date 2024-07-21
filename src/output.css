@@ -44,10 +44,9 @@ html,
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -90,7 +89,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -136,8 +135,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -380,8 +378,7 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -401,7 +398,7 @@ Set the default cursor for buttons.
 */
 
 button,
-[role='button'] {
+[role="button"] {
   cursor: pointer;
 }
 
@@ -449,9 +446,7 @@ video {
   display: none;
 }
 
-*,
-::before,
-::after {
+*, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -564,11 +559,6 @@ video {
   margin-right: 2.5rem;
 }
 
-.mx-44 {
-  margin-left: 11rem;
-  margin-right: 11rem;
-}
-
 .flex {
   display: flex;
 }
@@ -577,37 +567,37 @@ video {
   min-height: 100dvh;
 }
 
-.flex-col {
-  flex-direction: column;
+.min-h-\[30dvh\] {
+  min-height: 30dvh;
 }
 
-.items-end {
-  align-items: flex-end;
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-x-6 {
   -moz-column-gap: 1.5rem;
-  column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 
 .gap-y-7 {
   row-gap: 1.75rem;
 }
 
-.justify-self-end {
-  justify-self: end;
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .border-2 {
@@ -619,29 +609,56 @@ video {
   background-color: rgb(255 253 247 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-secondaryLight {
+  --tw-gradient-from: #2364AA var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(35 100 170 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-tertiaryLight {
+  --tw-gradient-to: #000000 var(--tw-gradient-to-position);
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
 
-.text-font_primaryLight {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.hover\:bg-tertiary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 253 247 / var(--tw-bg-opacity));
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.text-primaryLight {
+  --tw-text-opacity: 1;
+  color: rgb(255 253 247 / var(--tw-text-opacity));
+}
+
+.text-tertiaryLight {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
   .md\:mx-44 {
     margin-left: 11rem;
     margin-right: 11rem;
-  }
-
-  .md\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
 
   .md\:justify-end {
@@ -654,7 +671,17 @@ video {
   background-color: rgb(10 35 66 / var(--tw-bg-opacity));
 }
 
-.dark\:text-font_primary:where(.dark, .dark *) {
+.dark\:from-secondary:where(.dark, .dark *) {
+  --tw-gradient-from: #F46197 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(244 97 151 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark\:to-tertiary:where(.dark, .dark *) {
+  --tw-gradient-to: #FFFDF7 var(--tw-gradient-to-position);
+}
+
+.dark\:text-tertiary:where(.dark, .dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 253 247 / var(--tw-text-opacity));
 }
