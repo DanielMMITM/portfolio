@@ -28,6 +28,7 @@ export const AppContextProvider = ({ children }: AppContextProps) => {
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
+    document.documentElement.classList.toggle('dark');
   };
 
   return (
