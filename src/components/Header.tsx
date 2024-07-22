@@ -1,22 +1,20 @@
-import { useDarkMode } from '../hooks/useDarkMode';
-import { useLanguageSelected } from '../hooks/useLanguajeSelected';
+import { useAppContext } from '../context/AppContext';
 
 export const Header = () => {
-  const { dark, darkModeHandler } = useDarkMode();
-  const { english, languageHandler } = useLanguageSelected();
+  const { english, toggleLanguage, darkMode, toggleDarkMode } = useAppContext();
 
   return (
     <header>
       <nav className="flex justify-center md:justify-end items-center">
         <ul className="flex gap-x-6">
           <li>
-            <button type="button" onClick={languageHandler}>
+            <button type="button" onClick={toggleLanguage}>
               {english ? 'ES' : 'EN'}
             </button>
           </li>
           <li>
-            <button type="button" onClick={darkModeHandler}>
-              {dark ? 'Clear mode' : 'Dark Mode'}
+            <button type="button" onClick={toggleDarkMode}>
+              {darkMode ? 'Clear mode' : 'Dark Mode'}
             </button>
           </li>
         </ul>
