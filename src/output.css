@@ -559,6 +559,11 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -577,6 +582,10 @@ video {
 
 .min-h-\[30dvh\] {
   min-height: 30dvh;
+}
+
+.min-h-10 {
+  min-height: 2.5rem;
 }
 
 .w-40 {
@@ -622,6 +631,11 @@ video {
 
 .gap-y-7 {
   row-gap: 1.75rem;
+}
+
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }
 
 .rounded-full {
@@ -696,6 +710,11 @@ video {
   .md\:mx-44 {
     margin-left: 11rem;
     margin-right: 11rem;
+  }
+
+  .md\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .md\:max-w-\[50dvw\] {
