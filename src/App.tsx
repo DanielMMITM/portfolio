@@ -2,6 +2,8 @@ import { Description } from './components/Description';
 import { Header } from './components/Header';
 import { AppContextProvider } from './context/AppContext';
 
+document.documentElement.classList.toggle('dark');
+
 export const App = () => {
   return (
     <AppContextProvider>
