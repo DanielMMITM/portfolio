@@ -18,3 +18,10 @@
   transform: scaleY(1);
   width: 100%;
 }
+
+.custom-transition-force::after {
+  content: '';
+  position: absolute;
+  transform: scaleY(1);
+  width: 100% !important;
+}
