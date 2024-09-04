@@ -554,13 +554,13 @@ video {
   --tw-contain-style:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mb-20 {
@@ -636,6 +636,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -683,6 +687,10 @@ video {
      object-position: top;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -707,6 +715,48 @@ video {
 
 .text-transparent {
   color: transparent;
+}
+
+.custom-transition::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleY(0);
+  transition:
+    transform 0.2s,
+    width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+    background-color 0.1s;
+}
+
+.custom-transition:focus::after {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.after\:h-1::after {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
+.after\:w-1::after {
+  content: var(--tw-content);
+  width: 0.25rem;
+}
+
+.after\:bg-primary::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 35 66 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primaryLight:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 253 247 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-5:hover {
+  --tw-bg-opacity: 0.05;
 }
 
 @media (min-width: 900px) {
@@ -759,4 +809,10 @@ video {
 .dark\:text-tertiary:where(.dark, .dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 253 247 / var(--tw-text-opacity));
+}
+
+.after\:dark\:bg-secondary:where(.dark, .dark *)::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 97 151 / var(--tw-bg-opacity));
 }
