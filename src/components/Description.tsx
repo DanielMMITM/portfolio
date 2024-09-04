@@ -7,7 +7,7 @@ export const Description = () => {
   const { english } = useAppContext();
 
   return (
-    <section className="flex flex-col md:flex-row items-center min-h-[30dvh] mt-15 justify-evenly gap-6">
+    <section className="flex flex-col md:flex-row items-center min-h-[30dvh] mt-15 justify-evenly gap-6 border-b-2 border-b-primary dark:border-b-secondary">
       <div className="flex shrink-0 md:self-start">
         <img
           src={Profile}
@@ -19,7 +19,7 @@ export const Description = () => {
         <h1 className="min-h-14 text-5xl font-extrabold bg-clip-text text-transparent text-center md:text-start bg-gradient-to-r from-secondaryLight to-tertiaryLight dark:from-secondary dark:to-tertiary">
           Edgar Daniel Martínez Morales
         </h1>
-        <p className="min-w-[30dvw]">
+        <p className="min-w-[30dvw] mb-20">
           {english ? SELF_DESCRIPTION_EN : SELF_DESCRIPTION_ES}
         </p>
       </div>
