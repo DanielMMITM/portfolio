@@ -554,8 +554,28 @@ video {
   --tw-contain-style:  ;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .mx-8 {
@@ -571,8 +591,21 @@ video {
   display: flex;
 }
 
+.size-0\.5 {
+  width: 0.125rem;
+  height: 0.125rem;
+}
+
 .h-40 {
   height: 10rem;
+}
+
+.h-px {
+  height: 1px;
+}
+
+.h-\[500px\] {
+  height: 500px;
 }
 
 .min-h-14 {
@@ -591,12 +624,50 @@ video {
   width: 10rem;
 }
 
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .min-w-\[30dvw\] {
   min-width: 30dvw;
 }
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[215deg\] {
+  --tw-rotate: 215deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes meteor {
+  0% {
+    transform: rotate(215deg) translateX(0);
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(215deg) translateX(-500px);
+    opacity: 0;
+  }
+}
+
+.animate-meteor {
+  animation: meteor 5s linear infinite;
 }
 
 .flex-col {
@@ -632,6 +703,14 @@ video {
   row-gap: 1.75rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -642,6 +721,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-2 {
@@ -658,17 +741,12 @@ video {
   background-color: rgb(255 253 247 / var(--tw-bg-opacity));
 }
 
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 97 151 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-15 {
-  --tw-bg-opacity: 0.15;
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .from-secondaryLight {
@@ -679,6 +757,10 @@ video {
 
 .to-tertiaryLight {
   --tw-gradient-to: #000000 var(--tw-gradient-to-position);
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 
 .bg-clip-text {
@@ -713,8 +795,21 @@ video {
   line-height: 1;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-none {
+  line-height: 1;
 }
 
 .text-tertiaryLight {
@@ -724,6 +819,12 @@ video {
 
 .text-transparent {
   color: transparent;
+}
+
+.shadow-\[0_0_0_1px_\#ffffff10\] {
+  --tw-shadow: 0 0 0 1px #ffffff10;
+  --tw-shadow-colored: 0 0 0 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .custom-transition::after {
@@ -746,8 +847,6 @@ video {
 .custom-transition-force::after {
   content: '';
   position: absolute;
-  bottom: 0;
-  right: 0;
   transform: scaleY(1);
   width: 100% !important;
 }
@@ -771,15 +870,6 @@ video {
 .hover\:bg-primaryLight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 253 247 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-secondary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 97 151 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-opacity-15:hover {
-  --tw-bg-opacity: 0.15;
 }
 
 .hover\:bg-opacity-5:hover {
@@ -810,6 +900,12 @@ video {
 
   .md\:text-start {
     text-align: start;
+  }
+
+  .md\:shadow-xl {
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
 
