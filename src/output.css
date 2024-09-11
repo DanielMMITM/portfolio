@@ -644,6 +644,10 @@ video {
   width: 30px;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
 .min-w-\[30dvw\] {
   min-width: 30dvw;
 }
