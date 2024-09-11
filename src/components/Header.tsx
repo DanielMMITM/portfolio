@@ -5,7 +5,7 @@ export const Header = () => {
 
   return (
     <header>
-      <nav className="flex justify-center md:justify-end items-center">
+      <nav className="flex justify-center md:justify-end items-center z-10">
         <ul className="flex gap-x-6">
           <li>
             <button type="button" onClick={toggleLanguage}>
