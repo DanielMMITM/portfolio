@@ -640,6 +640,10 @@ video {
   width: 100%;
 }
 
+.w-\[30px\] {
+  width: 30px;
+}
+
 .min-w-\[30dvw\] {
   min-width: 30dvw;
 }
