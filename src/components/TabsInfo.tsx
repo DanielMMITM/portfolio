@@ -12,7 +12,7 @@ export const TabsInfo = () => {
       <button
         role="tab"
         type="button"
-        className={`${selectedTab === 1 && 'custom-transition-force'} relative p-3 hover:bg-primaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
+        className={`${selectedTab === 1 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5 hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(1)}
       >
         {english ? EXPERIENCE : EXPERIENCIA}
@@ -20,7 +20,7 @@ export const TabsInfo = () => {
       <button
         role="tab"
         type="button"
-        className={`${selectedTab === 2 && 'custom-transition-force'} relative p-3 hover:bg-primaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
+        className={`${selectedTab === 2 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5 hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(2)}
       >
         {english ? PROJECTS : PROYECTOS}
@@ -28,7 +28,7 @@ export const TabsInfo = () => {
       <button
         role="tab"
         type="button"
-        className={`${selectedTab === 3 && 'custom-transition-force'} relative p-3 hover:bg-primaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
+        className={`${selectedTab === 3 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5  hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:secondaryLight after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(3)}
       >
         {english ? TECHNOLOGIES : TECNOLOGIAS}
