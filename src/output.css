@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -574,14 +574,6 @@ video {
   top: 50%;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .-z-10 {
   z-index: -10;
 }
@@ -632,20 +624,12 @@ video {
   width: 10rem;
 }
 
-.w-\[50px\] {
-  width: 50px;
+.w-\[40px\] {
+  width: 40px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .min-w-\[30dvw\] {
@@ -744,11 +728,6 @@ video {
   border-bottom-color: rgb(10 35 66 / var(--tw-border-opacity));
 }
 
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 97 151 / var(--tw-bg-opacity));
-}
-
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(10 35 66 / var(--tw-bg-opacity));
@@ -823,14 +802,6 @@ video {
   color: transparent;
 }
 
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
 .opacity-60 {
   opacity: 0.6;
 }
@@ -877,16 +848,6 @@ video {
 
 .after\:bg-primary::after {
   content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 35 66 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-primaryLight:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 253 247 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(10 35 66 / var(--tw-bg-opacity));
 }
@@ -957,14 +918,6 @@ video {
   color: rgb(255 253 247 / var(--tw-text-opacity));
 }
 
-.dark\:opacity-50:where(.dark, .dark *) {
-  opacity: 0.5;
-}
-
-.dark\:opacity-60:where(.dark, .dark *) {
-  opacity: 0.6;
-}
-
 .after\:dark\:bg-secondary:where(.dark, .dark *)::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -974,11 +927,6 @@ video {
 .hover\:dark\:bg-primaryLight:where(.dark, .dark *):hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 253 247 / var(--tw-bg-opacity));
-}
-
-.hover\:dark\:bg-secondary:where(.dark, .dark *):hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 97 151 / var(--tw-bg-opacity));
 }
 
 .hover\:dark\:bg-opacity-5:where(.dark, .dark *):hover {
