@@ -1,7 +1,7 @@
-import { Description } from './components/Description';
-import { Header } from './components/Header';
-import { TabsInfo } from './components/TabsInfo';
-import { AppContextProvider } from './context/AppContext';
+import { Description } from '@/components/Description';
+import { Header } from '@/components/Header';
+import { TabsInfo } from '@/components/TabsInfo';
+import { AppContextProvider } from '@/context/AppContext';
 
 document.documentElement.classList.toggle('dark');
 

@@ -1,7 +1,7 @@
-import { SELF_DESCRIPTION_EN } from '../constants/english';
-import { SELF_DESCRIPTION_ES } from '../constants/spanish';
-import { useAppContext } from '../context/AppContext';
-import Profile from '../assets/images/profile.webp';
+import { SELF_DESCRIPTION_EN } from '@/constants/english';
+import { SELF_DESCRIPTION_ES } from '@/constants/spanish';
+import { useAppContext } from '@/context/AppContext';
+import Profile from '@/assets/images/profile.webp';
 
 export const Description = () => {
   const { english } = useAppContext();

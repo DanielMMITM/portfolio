@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { EXPERIENCE, PROJECTS, TECHNOLOGIES } from '../constants/english';
-import { EXPERIENCIA, PROYECTOS, TECNOLOGIAS } from '../constants/spanish';
-import { useAppContext } from '../context/AppContext';
+import { EXPERIENCE, PROJECTS, TECHNOLOGIES } from '@/constants/english';
+import { EXPERIENCIA, PROYECTOS, TECNOLOGIAS } from '@/constants/spanish';
+import { useAppContext } from '@/context/AppContext';
 
 export const TabsInfo = () => {
   const { english } = useAppContext();

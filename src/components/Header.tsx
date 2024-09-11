@@ -1,4 +1,4 @@
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '@/context/AppContext';
 
 export const Header = () => {
   const { english, toggleLanguage, darkMode, toggleDarkMode } = useAppContext();
