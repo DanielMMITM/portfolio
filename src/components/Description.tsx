@@ -7,7 +7,7 @@ export const Description = () => {
   const { english } = useAppContext();
 
   return (
-    <section className="flex flex-col md:flex-row items-center min-h-[30dvh] mt-15 justify-evenly gap-6 border-b-2 border-b-primary dark:border-b-secondary">
+    <section className="flex flex-col md:flex-row items-center min-h-[30dvh] mt-15 justify-evenly gap-6 border-b-2 border-b-primary dark:border-b-secondary z-10">
       <div className="flex shrink-0 md:self-start">
         <img
           src={Profile}
