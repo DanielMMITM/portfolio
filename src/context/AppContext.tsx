@@ -1,4 +1,11 @@
-import { createContext, ReactNode, useContext, useState } from 'react';
+import {
+  createContext,
+  Dispatch,
+  ReactNode,
+  SetStateAction,
+  useContext,
+  useState,
+} from 'react';
 
 interface AppContextProps {
   children: ReactNode;
@@ -9,6 +16,8 @@ type AppContextConfigType = {
   toggleLanguage: () => void;
   darkMode: boolean;
   toggleDarkMode: () => void;
+  selectedTab: number;
+  setSelectedTab: Dispatch<SetStateAction<number>>;
 };
 
 const initialAppContextConfigType: AppContextConfigType = {
@@ -16,11 +25,14 @@ const initialAppContextConfigType: AppContextConfigType = {
   toggleLanguage: () => {},
   darkMode: true,
   toggleDarkMode: () => {},
+  selectedTab: 1,
+  setSelectedTab: () => {},
 };
 
 export const AppContextProvider = ({ children }: AppContextProps) => {
   const [english, setEnglish] = useState(true);
   const [darkMode, setDarkMode] = useState(true);
+  const [selectedTab, setSelectedTab] = useState(1);
 
   const toggleLanguage = () => {
     setEnglish(!english);
@@ -38,6 +50,8 @@ export const AppContextProvider = ({ children }: AppContextProps) => {
         toggleLanguage,
         darkMode,
         toggleDarkMode,
+        selectedTab,
+        setSelectedTab,
       }}
     >
       {children}
