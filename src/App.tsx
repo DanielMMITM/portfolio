@@ -1,8 +1,8 @@
 import { Description } from '@/components/Description';
 import { Header } from '@/components/Header';
-import { TabsInfo } from '@/components/TabsInfo';
 import { AppContextProvider } from '@/context/AppContext';
 import Meteors from '@/components/Meteors';
+import { Tabs } from '@/components/Tabs/Tabs';
 
 document.documentElement.classList.toggle('dark');
 
@@ -11,10 +11,10 @@ export const App = () => {
     <AppContextProvider>
       <div className="relative flex w-full flex-col overflow-hidden text-tertiaryLight dark:bg-primary dark:text-tertiary border-3 min-h-[100dvh] ">
         <div className="flex flex-col p-6 mx-8 md:mx-40 gap-y-7 border-2">
-          <Meteors number={20} />
+          {/* <Meteors number={20} /> */}
           <Header />
           <Description />
-          <TabsInfo />
+          <Tabs />
         </div>
       </div>
     </AppContextProvider>
