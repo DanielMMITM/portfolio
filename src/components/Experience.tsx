@@ -22,21 +22,21 @@ export const Experience = () => {
   };
 
   return experience?.map((data) => (
-    <div className="flex" key={data.id}>
+    <section className="flex" key={data.id}>
       <div>
-        <img src={data.logo} alt="" />
+        <img src={data.logo} alt="employer logo" />
       </div>
       <div className="flex flex-col">
         <div className="flex gap-2">
           <h1 className="dark:text-secondary text-secondaryLight font-bold">
             {data.employer} |
           </h1>
-          <h3 className="dark:text-secondary text-primary opacity-90 font-semibold">
+          <h2 className="dark:text-secondary text-primary opacity-90 font-semibold">
             {data.jobTitle}
-          </h3>
+          </h2>
         </div>
-        <h4 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h4>
+        <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
       </div>
-    </div>
+    </section>
   ));
 };
