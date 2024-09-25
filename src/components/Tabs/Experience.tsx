@@ -38,7 +38,9 @@ export const Experience = () => {
               </h2>
             </div>
             <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
-            <p>{english ? data.descEn : data.descES}</p>
+            <p className="font-semibold my-2">
+              {english ? data.descEn : data.descES}
+            </p>
             <ul className="list-disc">
               {data.tasks.map((task) => (
                 <li key={task.id} className="list-item">
