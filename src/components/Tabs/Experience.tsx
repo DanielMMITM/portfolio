@@ -56,7 +56,7 @@ export const Experience = () => {
             <h3 className="font-bold dark:text-secondary text-secondaryLight">
               {english ? TASKS : TAREAS}
             </h3>
-            <ul className="list-disc">
+            <ul className="list-disc pl-8">
               {data.tasks.map((task) => (
                 <li key={task.id} className="list-item">
                   {english ? task.taskDescEN : task.taskDescES}
