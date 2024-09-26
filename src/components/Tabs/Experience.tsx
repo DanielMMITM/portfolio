@@ -4,7 +4,7 @@ import { useAppContext } from '@/context/AppContext';
 import { experience } from '@/data/experience';
 
 export const Experience = () => {
-  const { english } = useAppContext();
+  const { english, darkMode } = useAppContext();
 
   const formatDate = (date: string) => {
     const dateObject = new Date(date);
@@ -28,8 +28,15 @@ export const Experience = () => {
       {experience?.map((data) => (
         <div className="flex mt-10" key={data.id}>
           <div>
-            <a href={data.link} target="_blank">
-              <img src={data.logo} alt={data.alt} width="120px" height="20px" />
+            <a href={data.branding.link} target="_blank">
+              <img
+                src={data.branding.logo}
+                alt={data.branding.alt}
+                width="120px"
+                className={
+                  data.branding.lightModeHelp && !darkMode ? 'bg-primary' : ''
+                }
+              />
             </a>
           </div>
           <div className="flex flex-col ml-10 basis-9/12">

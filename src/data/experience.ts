@@ -1,9 +1,12 @@
 export const experience = [
   {
     id: 1,
-    logo: 'cantera.webp',
-    alt: 'Logo de cantera digital',
-    link: 'https://canteradigital.io/',
+    branding: {
+      logo: 'cantera.webp',
+      alt: 'Logo de cantera digital',
+      link: 'https://canteradigital.io/',
+      lightModeHelp: true,
+    },
     employer: 'CANTERA DIGITAL',
     startDate: '2024/02/01',
     endDate: '2024/08/02',
@@ -44,9 +47,12 @@ export const experience = [
   },
   {
     id: 2,
-    logo: 'prestige.png',
-    alt: 'Logo de prestige english school',
-    link: 'https://prestige-english.com/',
+    branding: {
+      logo: 'prestige.png',
+      alt: 'Logo de prestige english school',
+      link: 'https://prestige-english.com/',
+      lightModeHelp: false,
+    },
     employer: 'PRESTIGE ENGLISH SCHOOL',
     startDate: '2024/07/15',
     endDate: '2024/08/28',
@@ -84,9 +90,12 @@ export const experience = [
   },
   {
     id: 3,
-    logo: 'finanzas.svg',
-    alt: 'Logo de secretaria de finanzas y administración de michoacán',
-    link: 'https://secfinanzas.michoacan.gob.mx/',
+    branding: {
+      logo: 'finanzas.svg',
+      alt: 'Logo de secretaria de finanzas y administración de michoacán',
+      link: 'https://secfinanzas.michoacan.gob.mx/',
+      lightModeHelp: false,
+    },
     employer: 'SECRETARÍA DE FINANZAS Y ADMINISTRACIÓN DEL ESTADO DE MICHOACÁN',
     startDate: '2023/01/05',
     endDate: '2023/06/05',
@@ -128,9 +137,12 @@ export const experience = [
   },
   {
     id: 4,
-    logo: 'grupoLias.webp',
-    alt: 'Logo de grupo lias',
-    link: 'https://www.facebook.com/GRUPOLIAS/',
+    branding: {
+      logo: 'grupoLias.webp',
+      alt: 'Logo de grupo lias',
+      link: 'https://www.facebook.com/GRUPOLIAS/',
+      lightModeHelp: true,
+    },
     employer: 'GRUPO LIAS',
     startDate: '2022/03/26',
     endDate: '2022/03/26',
