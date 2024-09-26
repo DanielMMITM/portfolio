@@ -6,7 +6,7 @@ export const TabsInfo = () => {
   const { english, selectedTab, setSelectedTab } = useAppContext();
 
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-col sm:flex-row justify-center">
       <button
         role="tab"
         type="button"

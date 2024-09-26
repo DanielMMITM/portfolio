@@ -26,7 +26,10 @@ export const Experience = () => {
   return (
     <section>
       {experience?.map((data) => (
-        <div className="flex mt-10" key={data.id}>
+        <div
+          className="flex flex-col justify-center items-center gap-10 sm:flex-row sm:justify-start sm:items-start sm:gap-0 mt-10"
+          key={data.id}
+        >
           <div>
             <a href={data.branding.link} target="_blank">
               <img
@@ -40,14 +43,12 @@ export const Experience = () => {
             </a>
           </div>
           <div className="flex flex-col ml-10 basis-9/12">
-            <div className="flex flex-col">
-              <h1 className="dark:text-secondary text-secondaryLight font-bold">
-                {data.employer}
-              </h1>
-              <h2 className="dark:text-secondary text-primary opacity-90 font-semibold">
-                {data.jobTitle}
-              </h2>
-            </div>
+            <h1 className="dark:text-secondary text-secondaryLight font-bold">
+              {data.employer}
+            </h1>
+            <h2 className="dark:text-secondary text-primary opacity-90 font-semibold">
+              {data.jobTitle}
+            </h2>
             <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
             <p className="font-semibold my-2">
               {english ? data.descEn : data.descES}
