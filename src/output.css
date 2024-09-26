@@ -587,20 +587,41 @@ video {
   margin-right: 2rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .flex {
@@ -622,6 +643,14 @@ video {
 
 .h-px {
   height: 1px;
+}
+
+.h-\[30\%\] {
+  height: 30%;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .min-h-14 {
@@ -648,12 +677,72 @@ video {
   width: 100%;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
+.w-\[3\%\] {
+  width: 3%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
 .min-w-\[30dvw\] {
   min-width: 30dvw;
 }
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.basis-1 {
+  flex-basis: 0.25rem;
+}
+
+.basis-4\/12 {
+  flex-basis: 33.333333%;
+}
+
+.basis-3\/12 {
+  flex-basis: 25%;
+}
+
+.basis-9\/12 {
+  flex-basis: 75%;
+}
+
+.basis-2\/12 {
+  flex-basis: 16.666667%;
+}
+
+.basis-1\/12 {
+  flex-basis: 8.333333%;
 }
 
 .-translate-y-1\/2 {
@@ -696,6 +785,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -745,6 +838,11 @@ video {
 
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
 .border-b-primary {
@@ -804,6 +902,15 @@ video {
   padding: 1.5rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -847,6 +954,11 @@ video {
 
 .text-transparent {
   color: transparent;
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(244 97 151 / var(--tw-text-opacity));
 }
 
 .opacity-60 {
@@ -907,6 +1019,14 @@ video {
   background-color: rgb(10 35 66 / var(--tw-bg-opacity));
 }
 
+.last\:mt-3:last-child {
+  margin-top: 0.75rem;
+}
+
+.last\:mt-10:last-child {
+  margin-top: 2.5rem;
+}
+
 .hover\:bg-secondaryLight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(35 100 170 / var(--tw-bg-opacity));
@@ -914,6 +1034,12 @@ video {
 
 .hover\:bg-opacity-5:hover {
   --tw-bg-opacity: 0.05;
+}
+
+@media (min-width: 600px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 900px) {

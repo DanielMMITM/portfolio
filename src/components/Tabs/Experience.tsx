@@ -1,3 +1,5 @@
+import { TASKS } from '@/constants/english';
+import { TAREAS } from '@/constants/spanish';
 import { useAppContext } from '@/context/AppContext';
 import { experience } from '@/data/experience';
 
@@ -22,14 +24,16 @@ export const Experience = () => {
   };
 
   return (
-    <section className="mt-10">
+    <section>
       {experience?.map((data) => (
-        <div className="flex" key={data.id}>
+        <div className="flex mt-10" key={data.id}>
           <div>
-            <img src={data.logo} alt="employer logo" />
+            <a href={data.link} target="_blank">
+              <img src={data.logo} alt={data.alt} width="120px" height="20px" />
+            </a>
           </div>
-          <div className="flex flex-col ml-6">
-            <div className="flex gap-2">
+          <div className="flex flex-col ml-10 basis-9/12">
+            <div className="flex flex-col">
               <h1 className="dark:text-secondary text-secondaryLight font-bold">
                 {data.employer}
               </h1>
@@ -41,6 +45,9 @@ export const Experience = () => {
             <p className="font-semibold my-2">
               {english ? data.descEn : data.descES}
             </p>
+            <h3 className="font-bold dark:text-secondary text-secondaryLight">
+              {english ? TASKS : TAREAS}
+            </h3>
             <ul className="list-disc">
               {data.tasks.map((task) => (
                 <li key={task.id} className="list-item">

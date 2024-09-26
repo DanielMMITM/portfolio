@@ -3,4 +3,4 @@ export const SELF_DESCRIPTION_EN =
 export const EXPERIENCE = 'Experience';
 export const PROJECTS = 'Personal Projects';
 export const TECHNOLOGIES = 'Technologies';
-export const TASKS = 'Done tasks';
+export const TASKS = 'Done tasks:';
