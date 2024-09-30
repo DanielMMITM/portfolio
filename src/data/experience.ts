@@ -1,8 +1,13 @@
+import canteraLogo from '@/assets/icons/cantera.webp';
+import prestigeLogo from '@/assets/icons/prestige.png';
+import sfaLogo from '@/assets/icons/finanzas.svg';
+import grupoLiasLogo from '@/assets/icons/grupoLias.webp';
+
 export const experience = [
   {
     id: 1,
     branding: {
-      logo: 'cantera.webp',
+      logo: canteraLogo,
       alt: 'Logo de cantera digital',
       link: 'https://canteradigital.io/',
       lightModeHelp: true,
@@ -48,7 +53,7 @@ export const experience = [
   {
     id: 2,
     branding: {
-      logo: 'prestige.png',
+      logo: prestigeLogo,
       alt: 'Logo de prestige english school',
       link: 'https://prestige-english.com/',
       lightModeHelp: false,
@@ -91,7 +96,7 @@ export const experience = [
   {
     id: 3,
     branding: {
-      logo: 'finanzas.svg',
+      logo: sfaLogo,
       alt: 'Logo de secretaria de finanzas y administración de michoacán',
       link: 'https://secfinanzas.michoacan.gob.mx/',
       lightModeHelp: false,
@@ -138,7 +143,7 @@ export const experience = [
   {
     id: 4,
     branding: {
-      logo: 'grupoLias.webp',
+      logo: grupoLiasLogo,
       alt: 'Logo de grupo lias',
       link: 'https://www.facebook.com/GRUPOLIAS/',
       lightModeHelp: true,
