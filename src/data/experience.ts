@@ -18,7 +18,7 @@ export const experience = [
     jobTitle: 'FRONTEND DEVELOPER',
     descES:
       'Empecé como practicante frontend en Febrero del 2024 y terminé en Agosto del 2024, afortunadamente tengo actualmente la oportunidad de seguir colaborando con ellos hasta Noviembre del 2024. Sin duda, ha sido una experiencia de mucho aprendizaje para mi perfil como desarrollador, aprendí mucho de mis compañeros de equipo y ha sido una experiencia muy grata el poder aportar valor a proyectos en el ambiente laboral.',
-    descEn: `I started as a frontend intern in Februrary 2024 and I finished in August 2024. Fortunately I have the opportunity to keep working with Cantera Digital until November 2024. It has been a experience with many learnings, I learned a lot of things from my team and I'm glad I could get hands on in a real environment. `,
+    descEn: `I started as a frontend intern in Februrary 2024 and I finished in August 2024. Fortunately I have the opportunity to keep working with Cantera Digital until November 2024. It has been a great experience with many learnings, I learned a lot of things from my team and I'm glad I could get hands on in a real environment. `,
     tasks: [
       {
         id: 1,
