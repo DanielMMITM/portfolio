@@ -26,7 +26,7 @@ export const TabsInfo = () => {
       <button
         role="tab"
         type="button"
-        className={`${selectedTab === 3 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5  hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:secondaryLight after:dark:bg-secondary custom-transition rounded-lg`}
+        className={`${selectedTab === 3 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5  hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(3)}
       >
         {english ? TECHNOLOGIES : TECNOLOGIAS}
