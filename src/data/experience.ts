@@ -1,7 +1,7 @@
-import canteraLogo from '@/assets/icons/cantera.webp';
-import prestigeLogo from '@/assets/icons/prestige.png';
-import sfaLogo from '@/assets/icons/finanzas.svg';
-import grupoLiasLogo from '@/assets/icons/grupoLias.webp';
+import canteraLogo from '@/assets/images/cantera.webp';
+import prestigeLogo from '@/assets/images/prestige.png';
+import sfaLogo from '@/assets/images/finanzas.svg';
+import grupoLiasLogo from '@/assets/images/grupoLias.webp';
 
 export const experience = [
   {
