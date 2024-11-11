@@ -10,7 +10,7 @@ export const Projects = () => {
         <MagicCard
           key={id}
           className="flex-col justify-start shadow-2xl"
-          gradientColor={darkMode ? '#f4619725' : '#2364aa25'}
+          gradientColor={darkMode ? '#f4619755' : '#2364aa50'}
         >
           <img
             src={banner}
