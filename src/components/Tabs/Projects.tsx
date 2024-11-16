@@ -17,12 +17,14 @@ export const Projects = () => {
             alt=" Project banner"
             className="rounded-t-[.78rem] h-72 w-full object-cover object-left-top"
           />
-          <h1 className="mt-4 px-4 text-lg font-bold text-white">{title}</h1>
+          <h1 className="mt-4 px-4 text-lg font-bold dark:text-white">
+            {title}
+          </h1>
           <div className="flex flex-wrap mt-4 px-4">
             {technologies.map(({ id, name, icon }) => (
               <div
                 key={id}
-                className="flex m-1 p-2 border rounded-xl border-primary dark:border-white items-center"
+                className="flex m-1 py-1 px-2 border rounded-xl border-primary dark:border-white items-center"
               >
                 <img src={icon} alt={`${name} icon`} className="w-4 h-4 mr-2" />
                 <span className="text-inherit">{name}</span>
