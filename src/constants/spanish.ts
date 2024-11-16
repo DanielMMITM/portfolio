@@ -4,3 +4,5 @@ export const EXPERIENCIA = 'Experiencia';
 export const PROYECTOS = 'Proyectos Personales';
 export const TECNOLOGIAS = 'Tecnologías';
 export const TAREAS = 'Tareas realizadas:';
+export const TECHNOLOGIES_DESC_ES =
+  'Estas son algunas de las tecnologías que he utilizado e implementado en mi carrera academica, profesional y proyectos personales. Actualmente sigo intentando aprender nuevas tecnologías y practicando en estas mismas, generalmente me gusta utilizar SpringBoot para el backend y React para el frontend.';

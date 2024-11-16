@@ -4,3 +4,4 @@ export const EXPERIENCE = 'Experience';
 export const PROJECTS = 'Personal Projects';
 export const TECHNOLOGIES = 'Technologies';
 export const TASKS = 'Done tasks:';
+export const TECHNOLOGIES_DESC_EN = `Here are some technologies I've been using and implementing in my professional career, academic and in personal projects. Currently I'm trying to learn new technologies and practice with the displayed ones, I usually like to use SpringBoot on backend and React on frontend `;
