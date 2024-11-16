@@ -22,9 +22,9 @@ export const Experience = () => {
           }
         />
       </a>
-      <div className="flex flex-col ml-10 basis-9/12">
-        <div className="flex flex-col lg:flex-row">
-          <div className="flex flex-col">
+      <div className="flex flex-col ml-10 basis-11/12">
+        <div className="flex flex-col md:flex-row md:items-center">
+          <div className="flex flex-col basis-6/12">
             <h1 className="dark:text-secondary text-secondaryLight font-bold">
               {data.employer}
             </h1>
@@ -32,7 +32,7 @@ export const Experience = () => {
               {data.jobTitle}
             </h2>
           </div>
-          <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold lg:ml-auto">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
+          <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold md:ml-auto">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
         </div>
         <p className="font-semibold my-2">
           {english ? data.descEn : data.descES}
