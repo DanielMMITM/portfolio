@@ -101,7 +101,7 @@ export const experience = [
       link: 'https://secfinanzas.michoacan.gob.mx/',
       lightModeHelp: false,
     },
-    employer: 'SECRETARÍA DE FINANZAS Y ADMINISTRACIÓN DEL ESTADO DE MICHOACÁN',
+    employer: 'SECRETARÍA DE FINANZAS Y ADMINISTRACIÓN',
     startDate: '2023/01/05',
     endDate: '2023/06/05',
     jobTitle: 'FULLSTACK DEVELOPER',

@@ -12,26 +12,28 @@ export const Experience = () => {
       className="flex flex-col justify-center items-center gap-10 sm:flex-row sm:justify-start sm:items-start sm:gap-0 mt-10"
       key={data.id}
     >
-      <div>
-        <a href={data.branding.link} target="_blank">
-          <img
-            src={data.branding.logo}
-            alt={data.branding.alt}
-            width="120px"
-            className={
-              data.branding.lightModeHelp && !darkMode ? 'bg-primary' : ''
-            }
-          />
-        </a>
-      </div>
+      <a href={data.branding.link} target="_blank">
+        <img
+          src={data.branding.logo}
+          alt={data.branding.alt}
+          width="120px"
+          className={
+            data.branding.lightModeHelp && !darkMode ? 'bg-primary' : ''
+          }
+        />
+      </a>
       <div className="flex flex-col ml-10 basis-9/12">
-        <h1 className="dark:text-secondary text-secondaryLight font-bold">
-          {data.employer}
-        </h1>
-        <h2 className="dark:text-secondary text-primary opacity-90 font-semibold">
-          {data.jobTitle}
-        </h2>
-        <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex flex-col">
+            <h1 className="dark:text-secondary text-secondaryLight font-bold">
+              {data.employer}
+            </h1>
+            <h2 className="dark:text-secondary text-primary opacity-90 font-semibold">
+              {data.jobTitle}
+            </h2>
+          </div>
+          <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold lg:ml-auto">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
+        </div>
         <p className="font-semibold my-2">
           {english ? data.descEn : data.descES}
         </p>
