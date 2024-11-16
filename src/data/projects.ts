@@ -12,20 +12,6 @@ import mui from '@/assets/icons/mui.svg';
 export const projects = [
   {
     id: 1,
-    title: 'Text Encryptor',
-    banner: texEncryptorBanner,
-    descES:
-      'Este proyecto se centra en proporcionar una entrada de usuario y cifrar el texto; este se muestra y se proporciona la opción de descifrado. El proyecto tiene 2 algoritmos de cifrado y estos se invocan a través de los puntos finales de la API REST. La interfaz de usuario implementa un componente de consola para brindar una mejor experiencia durante el cifrado.',
-    descEN: `This project focuses on give an user input and encrypt the text, this one is displayed and the decrypt option is given. The project has 2 encryption algorithms and this ones are called through the REST API endpoints. The user interface implements a console component to bring a better experience while encrypting. `,
-    technologies: [
-      { id: 1, name: 'React', icon: react },
-      { id: 2, name: 'JavaScript', icon: javascript },
-      { id: 3, name: 'SpringBoot', icon: springboot },
-      { id: 4, name: 'Git', icon: git },
-    ],
-  },
-  {
-    id: 2,
     title: 'Forum',
     banner: forumBanner,
     descES:
@@ -39,6 +25,20 @@ export const projects = [
       { id: 5, name: 'MySQL', icon: mysql },
       { id: 6, name: 'SASS', icon: sass },
       { id: 7, name: 'Material UI', icon: mui },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Text Encryptor',
+    banner: texEncryptorBanner,
+    descES:
+      'Este proyecto se centra en proporcionar una entrada de usuario y cifrar el texto; este se muestra y se proporciona la opción de descifrado. El proyecto tiene 2 algoritmos de cifrado y estos se invocan a través de los puntos finales de la API REST. La interfaz de usuario implementa un componente de consola para brindar una mejor experiencia durante el cifrado.',
+    descEN: `This project focuses on give an user input and encrypt the text, this one is displayed and the decrypt option is given. The project has 2 encryption algorithms and this ones are called through the REST API endpoints. The user interface implements a console component to bring a better experience while encrypting. `,
+    technologies: [
+      { id: 1, name: 'React', icon: react },
+      { id: 2, name: 'JavaScript', icon: javascript },
+      { id: 3, name: 'SpringBoot', icon: springboot },
+      { id: 4, name: 'Git', icon: git },
     ],
   },
 ];

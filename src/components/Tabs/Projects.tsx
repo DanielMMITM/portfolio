@@ -5,8 +5,8 @@ import { useAppContext } from '@/context/AppContext';
 export const Projects = () => {
   const { darkMode, english } = useAppContext();
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-4 mt-10">
-      {projects.map(({ id, banner, descEN, descES, technologies }) => (
+    <section className="flex flex-col lg:flex-row justify-center gap-4 mt-10">
+      {projects.map(({ id, title, banner, descEN, descES, technologies }) => (
         <MagicCard
           key={id}
           className="flex-col justify-start shadow-2xl"
@@ -15,9 +15,10 @@ export const Projects = () => {
           <img
             src={banner}
             alt=" Project banner"
-            className="rounded-tl-xl rounded-tr-xl h-72 w-full object-cover object-left-top"
+            className="rounded-t-[.78rem] h-72 w-full object-cover object-left-top"
           />
-          <div className="flex flex-wrap mt-4 px-4 text-gray-900 dark:text-gray-300">
+          <h1 className="mt-4 px-4 text-lg font-bold text-white">{title}</h1>
+          <div className="flex flex-wrap mt-4 px-4">
             {technologies.map(({ id, name, icon }) => (
               <div
                 key={id}
@@ -31,6 +32,6 @@ export const Projects = () => {
           <p className="text-inherit p-4">{english ? descEN : descES}</p>
         </MagicCard>
       ))}
-    </div>
+    </section>
   );
 };
