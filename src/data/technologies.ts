@@ -9,6 +9,9 @@ import laravel from '@/assets/icons/laravel.svg';
 import django from '@/assets/icons/django.svg';
 import github from '@/assets/icons/github.svg';
 import tailwind from '@/assets/icons/tailwindcss.svg';
+import linux from '@/assets/icons/linux.svg';
+import docker from '@/assets/icons/docker.svg';
+import kubernetes from '@/assets/icons/kubernetes.svg';
 
 export const technologies = [
   { id: 1, icon: react, name: 'React' },
@@ -22,4 +25,7 @@ export const technologies = [
   { id: 9, icon: laravel, name: 'Laravel' },
   { id: 10, icon: django, name: 'Django' },
   { id: 11, icon: tailwind, name: 'TailwindCSS' },
+  { id: 12, icon: linux, name: 'Linux' },
+  { id: 13, icon: docker, name: 'Docker' },
+  { id: 14, icon: kubernetes, name: 'Kubernetes' },
 ];
