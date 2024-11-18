@@ -32,7 +32,7 @@ export const Experience = () => {
               {data.jobTitle}
             </h2>
           </div>
-          <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold md:ml-auto">{`${formatDate(data.startDate)} - ${formatDate(data.endDate)}`}</h3>
+          <h3 className="opacity-70 dark:text-slate-100 text-slate-900 font-semibold md:ml-auto">{`${formatDate(data.startDate)} - ${data.endDate ? formatDate(data.endDate) : english ? 'Present' : 'Presente'}`}</h3>
         </div>
         <p className="font-semibold my-2">
           {english ? data.descEn : data.descES}
