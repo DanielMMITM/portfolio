@@ -16,7 +16,7 @@ export const projects = [
     banner: forumBanner,
     descES:
       'Para este proyecto, decidí crear un sitio web totalmente responsivo utilizando sass y Material UI. Este foro te permite realizar todas las operaciones CRUD en usuarios, publicaciones y respuestas; además, todas las operaciones necesitan un token JWT. También hay una función genial para seleccionar una solución para tu publicación. La API REST está bien documentada gracias a Swagger.',
-    descEN: `For this project I decided to do a full responsive website by using sass and Material UI. This forum allows you to do all CRUD operations on users, posts and answers, furthermore, all operations need a JWT token. Also there is a cool feature to select a solution for your post. The REST API is well documented thanks to swagger.`,
+    descEN: `For this project I decided to do a full responsive website by using sass and Material UI. This forum allows you to do all CRUD operations on users, posts and answers, furthermore, all operations need a JWT token, also there is a cool feature to select a solution for your post. The REST API is well documented thanks to swagger.`,
     technologies: [
       { id: 1, name: 'React', icon: react },
       { id: 2, name: 'TypeScript', icon: typescript },
@@ -33,7 +33,7 @@ export const projects = [
     banner: texEncryptorBanner,
     descES:
       'Este proyecto se centra en proporcionar una entrada de usuario y cifrar el texto; este se muestra y se proporciona la opción de descifrado. El proyecto tiene 2 algoritmos de cifrado y estos se invocan a través de los puntos finales de la API REST. La interfaz de usuario implementa un componente de consola para brindar una mejor experiencia durante el cifrado.',
-    descEN: `This project focuses on give an user input and encrypt the text, this one is displayed and the decrypt option is given. The project has 2 encryption algorithms and this ones are called through the REST API endpoints. The user interface implements a console component to bring a better experience while encrypting. `,
+    descEN: `This project focuses on give an user input and encrypt the text, this one is displayed and the decrypt option is given. The project has 2 encryption algorithms and this ones are called through the REST API endpoints. The user interface implements a console component to bring a better experience while encrypting since the encryption algorithms work with some flags which are common on the command lines. `,
     technologies: [
       { id: 1, name: 'React', icon: react },
       { id: 2, name: 'JavaScript', icon: javascript },
