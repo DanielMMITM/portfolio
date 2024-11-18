@@ -1,5 +1,13 @@
-import { EXPERIENCE, PROJECTS, TECHNOLOGIES } from '@/constants/english';
-import { EXPERIENCIA, PROYECTOS, TECNOLOGIAS } from '@/constants/spanish';
+import {
+  EXPERIENCE_EN,
+  PROJECTS_EN,
+  TECHNOLOGIES_EN,
+} from '@/constants/english';
+import {
+  EXPERIENCE_ES,
+  PROJECTS_ES,
+  TECHNOLOGIES_ES,
+} from '@/constants/spanish';
 import { useAppContext } from '@/context/AppContext';
 
 export const TabsInfo = () => {
@@ -13,7 +21,7 @@ export const TabsInfo = () => {
         className={`${selectedTab === 1 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5 hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(1)}
       >
-        {english ? EXPERIENCE : EXPERIENCIA}
+        {english ? EXPERIENCE_EN : EXPERIENCE_ES}
       </button>
       <button
         role="tab"
@@ -21,7 +29,7 @@ export const TabsInfo = () => {
         className={`${selectedTab === 2 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5 hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(2)}
       >
-        {english ? PROJECTS : PROYECTOS}
+        {english ? PROJECTS_EN : PROJECTS_ES}
       </button>
       <button
         role="tab"
@@ -29,7 +37,7 @@ export const TabsInfo = () => {
         className={`${selectedTab === 3 && 'custom-transition-force'} relative p-3 hover:dark:bg-primaryLight hover:dark:bg-opacity-5  hover:bg-secondaryLight hover:bg-opacity-5 after:h-1 after:w-1 after:bg-primary after:dark:bg-secondary custom-transition rounded-lg`}
         onClick={() => setSelectedTab(3)}
       >
-        {english ? TECHNOLOGIES : TECNOLOGIAS}
+        {english ? TECHNOLOGIES_EN : TECHNOLOGIES_ES}
       </button>
     </div>
   );

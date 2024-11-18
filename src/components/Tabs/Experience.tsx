@@ -1,5 +1,5 @@
-import { TASKS } from '@/constants/english';
-import { TAREAS } from '@/constants/spanish';
+import { TASKS_EN } from '@/constants/english';
+import { TASKS_ES } from '@/constants/spanish';
 import { useAppContext } from '@/context/AppContext';
 import { experience } from '@/data/experience';
 import { formatDate } from '@/helpers/formatDate';
@@ -38,7 +38,7 @@ export const Experience = () => {
           {english ? data.descEn : data.descES}
         </p>
         <h3 className="font-bold dark:text-secondary text-secondaryLight">
-          {english ? TASKS : TAREAS}
+          {english ? TASKS_EN : TASKS_ES}
         </h3>
         <ul className="list-disc pl-8">
           {data.tasks.map((task) => (
