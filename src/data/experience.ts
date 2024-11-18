@@ -1,6 +1,6 @@
 import canteraLogo from '@/assets/images/cantera.webp';
-import prestigeLogo from '@/assets/images/prestige.png';
-import sfaLogo from '@/assets/images/finanzas.svg';
+import prestigeLogo from '@/assets/images/prestige.webp';
+import sfaLogo from '@/assets/images/finanzas.webp';
 import grupoLiasLogo from '@/assets/images/grupoLias.webp';
 
 export const experience = [
