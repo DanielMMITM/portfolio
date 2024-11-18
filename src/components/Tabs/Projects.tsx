@@ -9,7 +9,7 @@ export const Projects = () => {
       {projects.map(({ id, title, banner, descEN, descES, technologies }) => (
         <MagicCard
           key={id}
-          className="flex-col justify-start shadow-2xl"
+          className="flex-col justify-start shadow-2xl basis-6/12"
           gradientColor={darkMode ? '#f4619755' : '#2364aa50'}
         >
           <img
