@@ -6,6 +6,6 @@ export const swiperParams: SwiperOptions = {
   loop: true,
   modules: [Autoplay],
   autoplay: {
-    delay: 1000000,
+    delay: 1500,
   },
 };

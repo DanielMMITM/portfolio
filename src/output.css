@@ -757,6 +757,11 @@ video {
   width: 2.5rem;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .min-w-\[30dvw\] {
   min-width: 30dvw;
 }
@@ -991,9 +996,19 @@ video {
   stroke: #fff;
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .object-left-top {
@@ -1004,6 +1019,16 @@ video {
 .object-top {
   -o-object-position: top;
      object-position: top;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.object-left {
+  -o-object-position: left;
+     object-position: left;
 }
 
 .p-3 {
@@ -1257,6 +1282,11 @@ video {
 
   .sm\:gap-0 {
     gap: 0px;
+  }
+
+  .sm\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
   }
 }
 
