@@ -1,12 +1,11 @@
-import { Autoplay, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 
 export const swiperParams: SwiperOptions = {
   spaceBetween: 15,
-  slidesPerView: 3,
   loop: true,
-  modules: [Autoplay, Navigation],
+  modules: [Autoplay],
   autoplay: {
-    delay: 1500,
+    delay: 1000000,
   },
 };

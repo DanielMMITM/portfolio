@@ -1,5 +1,5 @@
 import { projects } from '@/data/projects';
-import { MagicCard } from '../MagicCard';
+import { MagicCard } from '@/components/MagicCard';
 import { useAppContext } from '@/context/AppContext';
 
 export const Projects = () => {

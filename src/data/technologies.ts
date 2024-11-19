@@ -24,7 +24,7 @@ export const technologies = [
   { id: 8, icon: sass, name: 'SASS' },
   { id: 9, icon: laravel, name: 'Laravel' },
   { id: 10, icon: django, name: 'Django' },
-  { id: 11, icon: tailwind, name: 'TailwindCSS' },
+  { id: 11, icon: tailwind, name: 'Tailwind' },
   { id: 12, icon: linux, name: 'Linux' },
   { id: 13, icon: docker, name: 'Docker' },
   { id: 14, icon: kubernetes, name: 'Kubernetes' },
