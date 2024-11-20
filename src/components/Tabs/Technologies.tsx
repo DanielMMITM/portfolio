@@ -12,7 +12,7 @@ import screenSize from '@/helpers/screenSize';
 
 export const Technologies = () => {
   const { darkMode, english } = useAppContext();
-  const isSmallScreen = screenSize('sm');
+  const isSmallScreen = screenSize();
 
   return (
     <section className="mt-10">
