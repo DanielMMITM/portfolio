@@ -1,5 +1,5 @@
-import { SELF_DESCRIPTION_EN } from '@/constants/english';
-import { SELF_DESCRIPTION_ES } from '@/constants/spanish';
+import { CONTACT_EN, SELF_DESCRIPTION_EN } from '@/constants/english';
+import { CONTACT_ES, SELF_DESCRIPTION_ES } from '@/constants/spanish';
 import { useAppContext } from '@/context/AppContext';
 import Profile from '@/assets/images/profile.webp';
 import { contactInfo } from '@/data/contactInfo';
@@ -21,7 +21,9 @@ export const Description = () => {
           Edgar Daniel Martínez Morales
         </h1>
         <div className="-mt-4">
-          <h2 className="text-md font-bold">Contact</h2>
+          <h2 className="text-md font-bold">
+            {english ? CONTACT_EN : CONTACT_ES}
+          </h2>
           <div className="flex gap-2 mt-2">
             {contactInfo?.map(({ id, icon, name, link, mailFlag }) => (
               <a

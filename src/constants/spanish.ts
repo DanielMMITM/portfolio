@@ -6,3 +6,4 @@ export const TECHNOLOGIES_ES = 'Tecnologías';
 export const TASKS_ES = 'Tareas realizadas:';
 export const TECHNOLOGIES_DESC_ES =
   'Estas son algunas de las tecnologías con las que he trabajado en el ámbito frontend, backend y en ciberseguridad. Algunas de estas han sido de manera superficial pero cuento con conocimientos en dichas tecnologías. Generalmente me gusta trabajar con React y SpringBoot para desarrollar.';
+export const CONTACT_ES = 'Contacto';
