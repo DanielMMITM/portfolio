@@ -149,8 +149,8 @@ export const experience = [
       lightModeHelp: true,
     },
     employer: 'GRUPO LIAS',
-    startDate: '2022/03/26',
-    endDate: '2022/03/26',
+    startDate: '2022/01/03',
+    endDate: '2022/06/03',
     jobTitle: 'FULLSTACK DEVELOPER',
     descES:
       'Este proyecto fue llevado a cabo por un equipo de 5 personas, el cual se desarrollo un CMS (Sistema de Gestión de Contenidos) para una empresa de servicios técnicos residenciales. Este cliente fue conseguido por una maestra, la cual nos brindó el apoyo para tener nuestro primer acercamiento en el mundo laboral, de tal manera que pudieramos aprender, trabajar y desarrollar el proyecto para un cliente real.',
