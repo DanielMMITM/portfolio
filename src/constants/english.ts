@@ -1,5 +1,5 @@
 export const SELF_DESCRIPTION_EN =
-  "My name is Edgar Martínez and I'm 23 years old, I'm a computer systems engineer recently graduated. During my academic career I took the information security specialty but I started to learn some frameworks and technologies on my own to begin on the software development field. I really enjoy these fields so I try to keep practicing and learning to be up to date on both.";
+  "My name is Edgar Martínez and I'm 24 years old, I'm a computer systems engineer recently graduated. During my academic career I took the information security specialty but I started to learn some frameworks and technologies on my own to begin on the software development field. I really enjoy these fields so I try to keep practicing and learning to be up to date on both.";
 export const EXPERIENCE_EN = 'Experience';
 export const PROJECTS_EN = 'Personal Projects';
 export const TECHNOLOGIES_EN = 'Technologies';
