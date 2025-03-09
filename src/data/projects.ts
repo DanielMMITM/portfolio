@@ -1,5 +1,6 @@
 import texEncryptorBanner from '@/assets/images/textEncryptor.webp';
 import forumBanner from '@/assets/images/forum.webp';
+import underConstruction from '@/assets/images/under-construction.webp';
 import react from '@/assets/icons/react.svg';
 import springboot from '@/assets/icons/springboot.svg';
 import javascript from '@/assets/icons/javascript.svg';
@@ -8,10 +9,26 @@ import typescript from '@/assets/icons/typescript.svg';
 import mysql from '@/assets/icons/mysql.svg';
 import sass from '@/assets/icons/sass.svg';
 import mui from '@/assets/icons/mui.svg';
+import docker from '@/assets/icons/docker.svg';
 
 export const projects = [
   {
     id: 1,
+    title: 'Chat App',
+    banner: underConstruction,
+    descES:
+      'Actualmente me encuentro desarrollando este proyecto utilizando web sockets en Spring boot y Docker tanto para el front como el backend.',
+    descEN: `Currently working on a chat app project using Spring boot web sockets and Docker for both sides (front and backend).`,
+    technologies: [
+      { id: 1, name: 'React', icon: react },
+      { id: 2, name: 'TypeScript', icon: typescript },
+      { id: 3, name: 'SpringBoot', icon: springboot },
+      { id: 4, name: 'Git', icon: git },
+      { id: 5, name: 'Docker', icon: docker },
+    ],
+  },
+  {
+    id: 2,
     title: 'Forum',
     banner: forumBanner,
     descES:
@@ -28,7 +45,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Text Encryptor',
     banner: texEncryptorBanner,
     descES:
