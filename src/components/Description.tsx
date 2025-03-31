@@ -1,5 +1,13 @@
-import { CONTACT_EN, SELF_DESCRIPTION_EN } from '@/constants/english';
-import { CONTACT_ES, SELF_DESCRIPTION_ES } from '@/constants/spanish';
+import {
+  CONTACT_EN,
+  SELF_DESCRIPTION_EN,
+  WORKING_ON_EN,
+} from '@/constants/english';
+import {
+  CONTACT_ES,
+  SELF_DESCRIPTION_ES,
+  WORKING_ON_ES,
+} from '@/constants/spanish';
 import { useAppContext } from '@/context/AppContext';
 import Profile from '@/assets/images/profile.webp';
 import { contactInfo } from '@/data/contactInfo';
@@ -38,9 +46,10 @@ export const Description = () => {
             ))}
           </div>
         </div>
-        <p className="min-w-[30dvw] mb-20">
-          {english ? SELF_DESCRIPTION_EN : SELF_DESCRIPTION_ES}
-        </p>
+        <div className="min-w-[30dvw] mb-20 flex flex-col gap-4">
+          <p>{english ? SELF_DESCRIPTION_EN : SELF_DESCRIPTION_ES}</p>
+          <p>{english ? WORKING_ON_EN : WORKING_ON_ES}</p>
+        </div>
       </div>
     </section>
   );
