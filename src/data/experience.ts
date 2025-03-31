@@ -172,8 +172,8 @@ export const experience = [
     endDate: '2022/06/03',
     jobTitle: 'FULLSTACK DEVELOPER',
     descES:
-      'Este proyecto fue llevado a cabo por un equipo de 5 personas, el cual se desarrollo un CMS (Sistema de Gestión de Contenidos) para una empresa de servicios técnicos residenciales. Este cliente fue conseguido por una maestra, la cual nos brindó el apoyo para tener nuestro primer acercamiento en el mundo laboral, de tal manera que pudieramos aprender, trabajar y desarrollar el proyecto para un cliente real.',
-    descEn: `This project was developed by me and 4 more persons. We developed a CMS (Content Management System) to allow the user manage the information displayed on the website. This software was about a website for technical residential services and this project was my first aproach into the real world, thanks to a teacher who reach a real client to bring us this challenge..`,
+      'Este proyecto fue mi primer acercamiento al mundo laboral. Se desarrolló un CMS (Content Management System) para una empresa de servicios residenciales técnicos. El proyecto fue construido desde 0, teniendo sesiones presenciales con el cliente para la obtención de los requerimientos, visualización de avances y entrega del mismo. Para backend se utilzó Django y en el frontend HTML con JavaScript.',
+    descEn: `This project was my first approach to the real world. I participated in the development of a CMS (Content Management System) for a technical residential services company. This software was built from scratch, we held several meetings to define and analyze the software requirements, review progress and deliver the final product. We used Django for the backend and HTML and JavaScript for the frontend.`,
     tasks: [
       {
         id: 1,
@@ -184,21 +184,30 @@ export const experience = [
       },
       {
         id: 2,
+        taskDescES: 'Diseño de interfaces de la plataforma.',
+        taskDescEN: 'Participated in the software interfaces designs.',
+      },
+      {
+        id: 3,
         taskDescES: 'Desarrollo de frontend y backend con Django.',
         taskDescEN:
           'Participate in the development of backend and frontend with Django.',
       },
       {
-        id: 3,
+        id: 4,
         taskDescES:
           'Diseño de la base de datos utilizando SQLite de acuerdo a las especificaciones de software.',
         taskDescEN: 'Designed SQL database based on software specifications.',
       },
       {
-        id: 4,
-        taskDescES:
-          'Trabajé con la metodología SCRUM y control de versiones (GIT).',
-        taskDescEN: 'Work with SCRUM methodology and versioning systems(GIT).',
+        id: 5,
+        taskDescES: 'Trabajé con la metodología SCRUM.',
+        taskDescEN: 'Work with SCRUM methodology.',
+      },
+      {
+        id: 6,
+        taskDescES: 'Manejo de control de versiones (GIT).',
+        taskDescEN: 'Work with versioning systems (GIT).',
       },
     ],
   },
