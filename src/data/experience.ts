@@ -120,9 +120,9 @@ export const experience = [
     endDate: '2023/06/05',
     jobTitle: 'FULLSTACK DEVELOPER',
     descES:
-      'Realicé mi servicio social en esta dependencia y los aprendizajes fueron muy buenos. Participé en la migración y mejora del sistema para apoyar al área financiera en la consulta de información y procesos para los trámites. Fue una buena experiencia ya que aprendí un nuevo framework el cual fue laravel, además de que siempre fui apoyado por mi supervisor y el solía compartir muchos tips conmigo.',
+      'Participé en la migración y mejora del sistema para apoyar al área financiera en la consulta de información y procesos realizados para diversos trámites. Fue muy buena experiencia desde mi integración hasta la finalización del proyecto. Aprendí más acerca de Laravel y sus buenas prácticas colaborando en el equipo, también tuve la posibilidad de trabajar con Bootstrap y templates como AdminLTE customizándolo y mostrando los datos correspondientes.',
     descEn:
-      'I did my social service/internship on this company and I learned a lot of things. I participated on the system upgrading and migration to help improve the finantial area operations. It was a grateful experience since I learned a new framework which was laravel and I always was guided by my supervisor and he used to tell me some tips.',
+      'I participated on the system upgrading and migration to help improve the finantial area operations. It was a great experience from the beginning to the end. I learn more about Laravel and its good practices, colaborating with the team by using Bootstrap and implementing AdminLTE with a proper customization.',
     tasks: [
       {
         id: 1,
@@ -140,15 +140,20 @@ export const experience = [
         taskDescES:
           'Definición de estándares de código dentro del proyecto y participación en revisión de pull requests.',
         taskDescEN:
-          'Define code standards among the project and participate in pull requests reviews.',
+          'Define code standards accross the project and participate in pull requests reviews.',
       },
       {
         id: 4,
-        taskDescES: 'Manejo de Jira y control de versiones (GIT).',
-        taskDescEN: 'Work with Jira and versioning systems (GIT).',
+        taskDescES: 'Uso de Jira.',
+        taskDescEN: 'Work with Jira.',
       },
       {
         id: 5,
+        taskDescES: 'Manejo de control de versiones (GIT).',
+        taskDescEN: 'Work with versioning systems (GIT).',
+      },
+      {
+        id: 6,
         taskDescES: 'Consumo de REST API endpoints de terceros.',
         taskDescEN: 'Consume third-party REST API endpoints.',
       },
