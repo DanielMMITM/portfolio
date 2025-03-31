@@ -4,5 +4,5 @@ export const EXPERIENCE_EN = 'Experience';
 export const PROJECTS_EN = 'Personal Projects';
 export const TECHNOLOGIES_EN = 'Technologies';
 export const TASKS_EN = 'Done tasks:';
-export const TECHNOLOGIES_DESC_EN = `Here are some technologies I've worked with in frontend, backend and in cybersecurity field. I've barely used some of these techonologies but I have a basically knowledge on them. I usually like to work with React and SpringBoot. `;
+export const TECHNOLOGIES_DESC_EN = `Here are some technologies I've worked with in frontend, backend and cybersecurity. I've barely used some of them but I always try to dive deeper into each one to understand them better. I usually enjoy working with React and SpringBoot.`;
 export const CONTACT_EN = 'Contact';
