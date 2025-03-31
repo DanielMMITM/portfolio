@@ -17,8 +17,8 @@ export const experience = [
     endDate: '',
     jobTitle: 'FRONTEND DEVELOPER',
     descES:
-      'Empecé como practicante frontend en Febrero del 2024 y terminé en Agosto del 2024, afortunadamente tengo actualmente la oportunidad de seguir colaborando con ellos. Sin duda, ha sido una experiencia de mucho aprendizaje para mi perfil como desarrollador, aprendí mucho de mis compañeros de equipo y ha sido una experiencia muy grata el poder aportar valor a proyectos en el ambiente laboral.',
-    descEn: `I started as a frontend intern in Februrary 2024 and finished in August 2024. Fortunately I had the opportunity to keep working with Cantera Digital. It has been a great experience with many learnings, I learned a lot of things from my team and I'm glad about getting hands on in a real environment.`,
+      'Actualmente trabajo en Cantera Digital, una excelente consultora en el desarrollo de software. Trabajar aquí me ha permitido mejorar tanto mis habilidades técnicas como blandas, comunicándome y colaborando de manera eficiente con mi equipo de trabajo, así como también aprender nuevas cosas. En general, los proyectos en los que he estado involucrando son CMS (Content Management System), por lo que tengo experiencia en este tipo de plataformas.',
+    descEn: `Currently I'm working here, an excellent software consultant company. Work in here allowed me to keep improving my technical skills as well as the soft ones. I've also learned a lot of from my teammates. The projects I've been involved in are mainly CMS(Content Management System) platforms.`,
     tasks: [
       {
         id: 1,
@@ -28,23 +28,32 @@ export const experience = [
       {
         id: 2,
         taskDescES: 'Consumo de REST APIS.',
-        taskDescEN: 'Consume REST APIS.',
+        taskDescEN: 'Consume REST API endpoints.',
       },
       {
         id: 3,
         taskDescES:
-          'Uso de librerías para la administración de datos como zustand/redux, tanstack query, etc.',
+          'Uso de librerías para la administración de datos, formularios y estados como zustand/redux, tanstack query, context api, etc.',
         taskDescEN:
-          'Usage of libraries for data management such as zustand/redux, tanstack query, etc.',
+          'Usage of libraries for data, form handling and state management such as zustand/redux, tanstack query, context api, etc.',
       },
       {
         id: 4,
-        taskDescES:
-          'Trabajé con la metodología SCRUM y control de versiones (GIT).',
-        taskDescEN: 'Work with SCRUM methodology and versioning systems (GIT).',
+        taskDescES: 'Trabajé con la metodología SCRUM.',
+        taskDescEN: 'Work with SCRUM methodology.',
       },
       {
         id: 5,
+        taskDescES: 'Manejo de control de versiones (GIT).',
+        taskDescEN: 'Work with versioning systems (GIT).',
+      },
+      {
+        id: 6,
+        taskDescES: 'Integración de servicios de terceros.',
+        taskDescEN: 'Third party services integration.',
+      },
+      {
+        id: 7,
         taskDescES: 'Elaboración de documentación técnica del proyecto.',
         taskDescEN: 'Elaborate technical documentation.',
       },
