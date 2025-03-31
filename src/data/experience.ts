@@ -68,12 +68,12 @@ export const experience = [
       lightModeHelp: false,
     },
     employer: 'PRESTIGE ENGLISH SCHOOL',
-    startDate: '2024/07/15',
+    startDate: '2024/06/15',
     endDate: '2024/08/28',
-    jobTitle: 'FREELANCE',
+    jobTitle: 'FREELANCE SOFTWARE DEVELOPER',
     descES:
-      'Este proyecto fue un desafío, ya que, no contaba con la experiencia ni los conocimientos necesarios, aún así fue posible realizarlo junto con otros 2 compañeros. Sin duda la parte más dificil fue buscar y encontrar soluciones a los problemas ya que en ocasiones la documentación no estaba actualizada, además de que tuve que investigar como hacer ciertas tareas para la correcta configuración del entorno para producción.',
-    descEn: `This project was a challenge for me due I didn't have the experience neither the knowledge, however it was possible to do it together with 2 other colleagues. The hardest part of this project was to search solutions for some problems because sometimes the documentation was outdated, also I had to do a research on how to get done some tasks, most of them about how to configure the server properly before the deployment.`,
+      'Este proyecto fue un trabajo freelance, sin duda fue un desafío y una gran experiencia. Puse en práctica mis habilidades autodidactas, ya que desconocía el software que se requería, así que tuve que profundizar en la documentación del software aunque estaba desactualizada y algunas partes del proceso variaban según la versión, por lo que tuve que investigar en otras fuentes como foros. Además, también me permitió practicar mi administración del tiempo y el trabajo en equipo. Durante este proceso se utilizó VMWare para trabajar de manera cuidadosa y entender el funcionamiento para posteriormente pasar al entorno productivo,',
+    descEn: `This project was a freelance job, a big challenge but also a great experience. I had to rely on my self-learning skills because I was unfamiliar with the required software. This meant diving deep into its documentation, even though it was outdated and some steps of the process varyied between versions. As a result, I had to research in forums and other sources. It also helped me to practice my teamwork and time management skills. During this process we used VMWare to carefully manage the project before moving it to a production environment.`,
     tasks: [
       {
         id: 1,
@@ -86,19 +86,24 @@ export const experience = [
         taskDescES:
           'Personalización de estilos e información en base a la escuela.',
         taskDescEN:
-          'Customization of the styles and information based on the school branding.',
+          'Customization of styles and content based on the school branding.',
       },
       {
         id: 3,
-        taskDescES: 'Despliegue del repositorio digital.',
-        taskDescEN: 'Deployment of the digital repository.',
+        taskDescES: 'Configuración de DNS, SSL y despliegue.',
+        taskDescEN: 'DNS, SSL configurations and deployment.',
       },
       {
         id: 4,
+        taskDescES: 'Configuración de Firewall.',
+        taskDescEN: 'Firewall configuration.',
+      },
+      {
+        id: 5,
         taskDescES:
-          'Desarrollo de scripts para la obtención de libros, categorización y subida de los mismos.',
+          'Desarrollo de scripts para la descarga, categorización y subida de libros.',
         taskDescEN:
-          'Scripts development to download, upload and categorize books.',
+          'Script development to download, upload and categorize books.',
       },
     ],
   },
