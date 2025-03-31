@@ -15,7 +15,7 @@ export const Projects = () => {
           <img
             src={banner}
             alt=" Project banner"
-            className="rounded-t-[.78rem] h-72 w-full object-cover object-left-top"
+            className="h-72 w-full object-cover object-center"
           />
           <h1 className="mt-4 px-4 text-lg font-bold dark:text-white">
             {title}
