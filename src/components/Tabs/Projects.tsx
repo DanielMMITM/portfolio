@@ -5,7 +5,7 @@ import { useAppContext } from '@/context/AppContext';
 export const Projects = () => {
   const { darkMode, english } = useAppContext();
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 lg:place-items-center lg:items-stretch gap-4 mt-10">
+    <section className="grid grid-cols-1 lg:grid-cols-2 lg:items-stretch gap-4 mt-10">
       {projects.map(({ id, title, banner, descEN, descES, technologies }) => (
         <MagicCard
           key={id}
