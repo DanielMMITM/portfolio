@@ -73,8 +73,10 @@ export const experience = [
     endDate: '2024/08/28',
     jobTitle: 'FREELANCE SOFTWARE DEVELOPER',
     descES:
-      'Este proyecto fue un trabajo freelance, sin duda fue un desafío y una gran experiencia. Puse en práctica mis habilidades autodidactas, ya que desconocía el software que se requería, así que tuve que profundizar en la documentación del software aunque estaba desactualizada y algunas partes del proceso variaban según la versión, por lo que tuve que investigar en otras fuentes como foros. Además, también me permitió practicar mi administración del tiempo y el trabajo en equipo. Durante este proceso se utilizó VMWare para trabajar de manera cuidadosa y entender el funcionamiento para posteriormente pasar al entorno productivo,',
-    descEn: `This project was a freelance job, a big challenge but also a great experience. I had to rely on my self-learning skills because I was unfamiliar with the required software. This meant diving deep into its documentation, even though it was outdated and some steps of the process varyied between versions. As a result, I had to research in forums and other sources. It also helped me to practice my teamwork and time management skills. During this process we used VMWare to carefully manage the project before moving it to a production environment.`,
+      'Este proyecto fue un trabajo como freelance, un gran reto, pero también una excelente experiencia. Tuve que apoyarme bastante en mis habilidades autodidactas, ya que no conocía el software que requerido por el cliente. Esto me llevó a profundizar en su documentación, a pesar de que estaba desactualizada y algunos pasos variaban entre versiones. Para superar estos obstáculos, investigué en foros y otras fuentes técnicas. A lo largo del proyecto también fortalecí mis habilidades de trabajo en equipo y gestión del tiempo, coordinándome con otras personas y asegurando que cumpliéramos con los tiempos establecidos. Utilizamos VMware para gestionar el entorno cuidadosamente antes de migrar todo a producción. Al final, logré entregar una solución funcional, superando las limitaciones técnicas e informativas, lo que ayudó al cliente a avanzar de manera más eficiente con sus operaciones.',
+    descEn: `This project was a freelance job, a big challenge, but also a great learning experience. I had to rely heavily on my self-learning skills, as I was
+      unfamiliar with the software required by the client. This pushed me to dive deep into its documentation, even though it was outdated and certain steps varied between versions. To overcome this, I had to explore external resources such as community forums and technical articles.
+      Throughout the project, I also strengthened my teamwork and time management skills by coordinating with others and ensuring we stayed on schedule. We used VMware to manage the environment carefully before moving everything into production. In the end, I was able to deliver a functional solution, overcoming technical and informational limitations, which helped the client move forward with their operations more efficiently.`,
     tasks: [
       {
         id: 1,
@@ -92,19 +94,19 @@ export const experience = [
       {
         id: 3,
         taskDescES: 'Configuración de DNS, SSL y despliegue.',
-        taskDescEN: 'DNS, SSL configurations and deployment.',
+        taskDescEN: 'DNS, SSL and firewall configurations.',
       },
       {
         id: 4,
-        taskDescES: 'Configuración de Firewall.',
-        taskDescEN: 'Firewall configuration.',
-      },
-      {
-        id: 5,
         taskDescES:
           'Desarrollo de scripts para la descarga, categorización y subida de libros.',
         taskDescEN:
           'Script development to download, upload and categorize books.',
+      },
+      {
+        id: 5,
+        taskDescES: 'Despliegue de la aplicación.',
+        taskDescEN: 'App deployment.',
       },
     ],
   },
