@@ -123,14 +123,14 @@ export const experience = [
     endDate: '2023/06/05',
     jobTitle: 'FULLSTACK DEVELOPER',
     descES:
-      'Participé en la migración y mejora del sistema para apoyar al área financiera en la consulta de información y procesos realizados para diversos trámites. Fue muy buena experiencia desde mi integración hasta la finalización del proyecto. Aprendí más acerca de Laravel y sus buenas prácticas colaborando en el equipo, también tuve la posibilidad de trabajar con Bootstrap y templates como AdminLTE customizándolo y mostrando los datos correspondientes.',
-    descEn:
-      'I participated on the system upgrading and migration to help improve the finantial area operations. It was a great experience from the beginning to the end. I learned more about Laravel and its good pracitces, colaborating with the team by using Bootstrap and implementing AdminLTE with a proper customization.',
+      'Participé en la actualización y migración del sistema para ayudar a mejorar las operaciones del área financiera. Mejoré mis conocimientos sobre Laravel y sus mejores prácticas, colaborando con el equipo mediante el uso de Bootstrap e implementando AdminLTE con una personalización adecuada para satisfacer las necesidades específicas del proyecto. A lo largo de este proceso, contribuí a agilizar las operaciones y mejorar la interfaz de usuario, lo que finalmente aumentó la eficiencia general y la satisfacción de los usuarios en el área financiera.',
+    descEn: `I participated in the system upgrade and migration to help improve the financial area's operations. I enhanced my knowledge of Laravel and its best practices,
+      collaborating with the team by using Bootstrap and implementing AdminLTE with proper customization to meet the specific needs of the project. Through this process, I contributed to streamlining operations and enhancing the user interface, which ultimately improved the overall efficiency and user satisfaction in the financial department.`,
     tasks: [
       {
         id: 1,
         taskDescES: 'Migración de la base de datos de Access a MySQL.',
-        taskDescEN: 'Migrate database from Access to MySQL.',
+        taskDescEN: 'Migrate the database from Access to MySQL.',
       },
       {
         id: 2,
@@ -143,7 +143,7 @@ export const experience = [
         taskDescES:
           'Definición de estándares de código dentro del proyecto y participación en revisión de pull requests.',
         taskDescEN:
-          'Define code standards across the project and participate in pull requests reviews.',
+          'Define code standards across the project and participate in pull request reviews.',
       },
       {
         id: 4,
