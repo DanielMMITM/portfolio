@@ -175,8 +175,9 @@ export const experience = [
     endDate: '2022/06/03',
     jobTitle: 'FULLSTACK DEVELOPER',
     descES:
-      'Este proyecto fue mi primer acercamiento al mundo laboral. Se desarrolló un CMS (Content Management System) para una empresa de servicios residenciales técnicos. El proyecto fue construido desde 0, teniendo sesiones presenciales con el cliente para la obtención de los requerimientos, visualización de avances y entrega del mismo. Para backend se utilzó Django y en el frontend HTML con JavaScript.',
-    descEn: `This project was my first approach to the real world. I participated in the development of a CMS (Content Management System) for a technical residential services company. This software was built from scratch, we held several meetings to define and analyze the software requirements, review progress and deliver the final product. We used Django for the backend and HTML and JavaScript for the frontend.`,
+      'Este proyecto fue mi primera experiencia en el ambiente laboral. Participé en el desarrollo de un CMS (Sistema de Gestión de Contenidos) para una empresa de servicios residenciales técnicos. El software se construyó desde cero, y realizamos varias reuniones para definir y analizar los requisitos del software, así como para revisar el progreso y entregar el producto final. Utilizamos Django para el backend y HTML en conjunto con JavaScript para el frontend. A través de este proyecto, adquirí experiencia práctica muy valiosa tanto en desarrollo backend como frontend, lo que fortaleció mis habilidades para resolver problemas y mi capacidad para trabajar de manera colaborativa con un equipo. La finalización exitosa de este proyecto ayudó a agilizar las operaciones del cliente y mejoró la entrega de sus servicios.',
+    descEn: `This project was my first real-world experience. I participated in the development of a CMS (Content Management System) for a technical residential services 
+      company. The software was built from scratch, and we held several meetings to define and analyze the software requirements, review progress, and deliver the final product. We used Django for the backend and HTML and JavaScript for the frontend. Through this project, I gained valuable hands-on experience with both backend and frontend development, which strengthened my problem-solving skills and ability to work collaboratively with a team. The successful completion of this project helped streamline the client's operations and improved their service delivery.`,
     tasks: [
       {
         id: 1,
@@ -188,7 +189,7 @@ export const experience = [
       {
         id: 2,
         taskDescES: 'Diseño de interfaces de la plataforma.',
-        taskDescEN: 'Participated in the software interfaces designs.',
+        taskDescEN: 'Participated in designing software interfaces.',
       },
       {
         id: 3,
