@@ -79,7 +79,7 @@ export const experience = [
         id: 1,
         taskDescES:
           'Instalación y configuración del backend y frontend de DSpace.',
-        taskDescEN: `Install and configure DSpace backend and frontend for it's proper operation.`,
+        taskDescEN: `Install and configure DSpace backend and frontend for its proper operation.`,
       },
       {
         id: 2,
