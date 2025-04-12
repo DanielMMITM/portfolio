@@ -17,8 +17,9 @@ export const experience = [
     endDate: '',
     jobTitle: 'FRONTEND DEVELOPER',
     descES:
-      'Actualmente trabajo en Cantera Digital, una excelente consultora en el desarrollo de software. Trabajar aquí me ha permitido mejorar tanto mis habilidades técnicas como blandas, comunicándome y colaborando de manera eficiente con mi equipo de trabajo, así como también aprender nuevas cosas. En general, los proyectos en los que he estado involucrando son CMS (Content Management System), por lo que tengo experiencia en este tipo de plataformas.',
-    descEn: `Currently I'm working here, an excellent software consultant company. Work in here allowed me to keep improving my technical skills as well as the soft ones. I've also learned a lot of from my teammates. The projects I've been involved in are mainly CMS(Content Management System) platforms.`,
+      'Actualmente trabajo en aquí, una excelente empresa de consultoría de software. Esta experiencia me ha permitido seguir creciendo tanto técnicamente como profesionalmente. He aprendido mucho de mis compañeros, y trabajar de cerca con ellos me ha ayudado a fortalecer mis habilidades de comunicación y resolución de problemas. Los proyectos en los que he participado han estado enfocados principalmente a plataformas CMS (Sistemas de Gestión de Contenidos), donde he contribuido a mejorar el rendimiento, optimizar la experiencia del usuario y ofrecer soluciones escalables adaptadas a las necesidades del cliente.',
+    descEn: `Currently working here, at an excellent software consulting company. This experience has allowed me to keep growing both technically and professionally. I've learned
+      a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs.`,
     tasks: [
       {
         id: 1,
@@ -50,12 +51,12 @@ export const experience = [
       {
         id: 6,
         taskDescES: 'Integración de servicios de terceros.',
-        taskDescEN: 'Third party services integration.',
+        taskDescEN: 'Third-party services integration.',
       },
       {
         id: 7,
         taskDescES: 'Elaboración de documentación técnica del proyecto.',
-        taskDescEN: 'Elaborate technical documentation.',
+        taskDescEN: 'Write technical documentation',
       },
     ],
   },
