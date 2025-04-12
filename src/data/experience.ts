@@ -56,7 +56,7 @@ export const experience = [
       {
         id: 7,
         taskDescES: 'Elaboración de documentación técnica del proyecto.',
-        taskDescEN: 'Write technical documentation',
+        taskDescEN: 'Write technical documentation.',
       },
     ],
   },
