@@ -122,7 +122,7 @@ export const experience = [
     descES:
       'Participé en la migración y mejora del sistema para apoyar al área financiera en la consulta de información y procesos realizados para diversos trámites. Fue muy buena experiencia desde mi integración hasta la finalización del proyecto. Aprendí más acerca de Laravel y sus buenas prácticas colaborando en el equipo, también tuve la posibilidad de trabajar con Bootstrap y templates como AdminLTE customizándolo y mostrando los datos correspondientes.',
     descEn:
-      'I participated on the system upgrading and migration to help improve the finantial area operations. It was a great experience from the beginning to the end. I learn more about Laravel and its good practices, colaborating with the team by using Bootstrap and implementing AdminLTE with a proper customization.',
+      'I participated on the system upgrading and migration to help improve the finantial area operations. It was a great experience from the beginning to the end. I learned more about Laravel and its good pracitces, colaborating with the team by using Bootstrap and implementing AdminLTE with a proper customization.',
     tasks: [
       {
         id: 1,
@@ -140,7 +140,7 @@ export const experience = [
         taskDescES:
           'Definición de estándares de código dentro del proyecto y participación en revisión de pull requests.',
         taskDescEN:
-          'Define code standards accross the project and participate in pull requests reviews.',
+          'Define code standards across the project and participate in pull requests reviews.',
       },
       {
         id: 4,
