@@ -12,6 +12,11 @@ import tailwind from '@/assets/icons/tailwindcss.svg';
 import linux from '@/assets/icons/linux.svg';
 import docker from '@/assets/icons/docker.svg';
 import kubernetes from '@/assets/icons/kubernetes.svg';
+import express from '@/assets/icons/express.svg';
+import postgresql from '@/assets/icons/postgresql.svg';
+import fastapi from '@/assets/icons/fastapi.svg';
+import python from '@/assets/icons/python.svg';
+import mongodb from '@/assets/icons/mongodb.svg';
 
 export const technologies = [
   { id: 1, icon: react, name: 'React' },
@@ -28,4 +33,9 @@ export const technologies = [
   { id: 12, icon: linux, name: 'Linux' },
   { id: 13, icon: docker, name: 'Docker' },
   { id: 14, icon: kubernetes, name: 'Kubernetes' },
+  { id: 15, icon: express, name: 'Express' },
+  { id: 16, icon: postgresql, name: 'PostgreSQL' },
+  { id: 17, icon: fastapi, name: 'FastAPI' },
+  { id: 18, icon: python, name: 'Python' },
+  { id: 19, icon: mongodb, name: 'MongoDB' },
 ];
