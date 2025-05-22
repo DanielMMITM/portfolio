@@ -15,11 +15,11 @@ export const experience = [
     employer: 'CANTERA DIGITAL',
     startDate: '2024/02/01',
     endDate: '',
-    jobTitle: 'FRONTEND DEVELOPER',
+    jobTitle: 'FULLSTACK DEVELOPER',
     descES:
-      'Actualmente trabajo en aquí, una excelente empresa de consultoría de software. Esta experiencia me ha permitido seguir creciendo tanto técnicamente como profesionalmente. He aprendido mucho de mis compañeros, y trabajar de cerca con ellos me ha ayudado a fortalecer mis habilidades de comunicación y resolución de problemas. Los proyectos en los que he participado han estado enfocados principalmente a plataformas CMS (Sistemas de Gestión de Contenidos), donde he contribuido a mejorar el rendimiento, optimizar la experiencia del usuario y ofrecer soluciones escalables adaptadas a las necesidades del cliente.',
+      'Actualmente trabajo en aquí, una excelente empresa de consultoría de software. Esta experiencia me ha permitido seguir creciendo tanto técnicamente como profesionalmente. He aprendido mucho de mis compañeros, y trabajar de cerca con ellos me ha ayudado a fortalecer mis habilidades de comunicación y resolución de problemas. Los proyectos en los que he participado han estado enfocados principalmente a plataformas CMS (Sistemas de Gestión de Contenidos), donde he contribuido a mejorar el rendimiento, optimizar la experiencia del usuario y ofrecer soluciones escalables adaptadas a las necesidades del cliente. Últimamente también he participado en el desarrollo del backend, creando REST API endpoints y asegurando una buena estructura de los datos utilizando, así como proporcionando documentación mediante Swagger.',
     descEn: `Currently working here, at an excellent software consulting company. This experience has allowed me to keep growing both technically and professionally. I've learned
-      a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs.`,
+      a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs. Lately I have also been involved in the backend development, creating REST API endpoints and ensuring a well-structured data model, as well as providing documentation using Swagger.`,
     tasks: [
       {
         id: 1,
@@ -57,6 +57,16 @@ export const experience = [
         id: 7,
         taskDescES: 'Elaboración de documentación técnica del proyecto.',
         taskDescEN: 'Write technical documentation.',
+      },
+      {
+        id: 8,
+        taskDescES: 'Desarrollo de REST API endpoints.',
+        taskDescEN: 'Develop REST API endpoints.',
+      },
+      {
+        id: 9,
+        taskDescES: 'Diseño de estructura de datos.',
+        taskDescEN: 'Data model design.',
       },
     ],
   },
