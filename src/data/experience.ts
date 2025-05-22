@@ -70,7 +70,7 @@ export const experience = [
     },
     employer: 'PRESTIGE ENGLISH SCHOOL',
     startDate: '2024/06/15',
-    endDate: '2024/08/28',
+    endDate: '2024/10/28',
     jobTitle: 'FREELANCE SOFTWARE DEVELOPER',
     descES:
       'Este proyecto fue un trabajo como freelance, un gran reto, pero también una excelente experiencia. Tuve que apoyarme bastante en mis habilidades autodidactas, ya que no conocía el software que requerido por el cliente. Esto me llevó a profundizar en su documentación, a pesar de que estaba desactualizada y algunos pasos variaban entre versiones. Para superar estos obstáculos, investigué en foros y otras fuentes técnicas. A lo largo del proyecto también fortalecí mis habilidades de trabajo en equipo y gestión del tiempo, coordinándome con otras personas y asegurando que cumpliéramos con los tiempos establecidos. Utilizamos VMware para gestionar el entorno cuidadosamente antes de migrar todo a producción. Al final, logré entregar una solución funcional, superando las limitaciones técnicas e informativas, lo que ayudó al cliente a avanzar de manera más eficiente con sus operaciones.',
