@@ -2,6 +2,7 @@ import canteraLogo from '@/assets/images/cantera.webp';
 import prestigeLogo from '@/assets/images/prestige.webp';
 import sfaLogo from '@/assets/images/finanzas.webp';
 import grupoLiasLogo from '@/assets/images/grupoLias.webp';
+import companyDefaultLogo from '@/assets/images/defaultLogo.webp';
 
 export const experience = [
   {
@@ -73,10 +74,10 @@ export const experience = [
   {
     id: 2,
     branding: {
-      logo: null,
+      logo: companyDefaultLogo,
       alt: 'Logo de clínica oftalmológica',
       link: null,
-      lightModeHelp: true,
+      lightModeHelp: false,
     },
     employer: 'OPTICA',
     startDate: '2024/04/01',
