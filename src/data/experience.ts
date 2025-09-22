@@ -73,6 +73,77 @@ export const experience = [
   {
     id: 2,
     branding: {
+      logo: null,
+      alt: 'Logo de clínica oftalmológica',
+      link: null,
+      lightModeHelp: true,
+    },
+    employer: 'OPTICA',
+    startDate: '2024/04/01',
+    endDate: '2024/09/16',
+    jobTitle: 'FULLSTACK DEVELOPER',
+    descES: `Para este proyecto en conjunto con 2 compañeros desarrollamos un sistema web administrativo para una consultorio óptico. Llevando a cabo todo el proceso del desarrollo de software, desde la obtención de requerimientos hasta el deploy del sistema en una red LAN. Se desarrollaron las interfaces mediante figma de acuerdo a lo requerido por el cliente.
+    Por parte del backend se manejó una autenticación básica para el sistema y el almacenando de los datos en una base de datos relacional utilizando PostgreSQL en conjunto con Express y TypeScript.
+    Por el lado del frontend se desarrollaron las interfaces de usuario usando React y JavaScript, y para el manejo de algunos componentes se utilizó la librería Material UI.
+    La aplicación está dockerizada de tal manera que el pase a producción fuera lo más sencillo y similar posible.`,
+    descEn: `For this project, together with two teammates, we developed a web-based administrative system for an optical clinic.
+    We handled the entire software development process, from gathering requirements to deploying the system on a local network (LAN). The user interfaces were designed using Figma based on the client specifications.
+    On the backend, we implemented basic authentication for the system and stored data in a relational database using PostgreSQL, along with Express and TypeScript.
+    On the frontend, we developed the user interfaces using React and JavaScript, alsow we used Material UI library.
+    The application was dockerized thinking of a clean trasition to the production environment.`,
+    tasks: [
+      {
+        id: 1,
+        taskDescES: 'Diseño de interfaces de usuario para el sistema.',
+        taskDescEN: 'Participate in the website UI design.',
+      },
+      {
+        id: 2,
+        taskDescES:
+          'Desarrollo de REST API endpoints usando Express y TypeScript.',
+        taskDescEN: 'Develop REST API endpoints usign Express with TypeScript.',
+      },
+      {
+        id: 3,
+        taskDescES:
+          'Usage of common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
+        taskDescEN:
+          'Usage of common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
+      },
+      {
+        id: 4,
+        taskDescES:
+          'Participé en el frontend actualizando algunos componentes para mejorar el rendimiento y la experiencia del usuario.',
+        taskDescEN:
+          'Paticipate in the frontend development by enhancing the components to improve the performance and UI/UX using React.',
+      },
+      {
+        id: 4,
+        taskDescES: 'Trabajé con la metodología SCRUM.',
+        taskDescEN: 'Work with SCRUM methodology.',
+      },
+      {
+        id: 5,
+        taskDescES:
+          'Uso y configuración de Docker para el buen funcionamiento en diferentes ambientes.',
+        taskDescEN:
+          'Docker usage and configuration to ensure work properly in different environments',
+      },
+      {
+        id: 6,
+        taskDescES: 'Diseño de estructura de datos usando PostgreSQL.',
+        taskDescEN: 'Data model design using PostgreSQL.',
+      },
+      {
+        id: 7,
+        taskDescES: 'Manejo de control de versiones (GIT).',
+        taskDescEN: 'Work with versioning systems (GIT).',
+      },
+    ],
+  },
+  {
+    id: 3,
+    branding: {
       logo: prestigeLogo,
       alt: 'Logo de prestige english school',
       link: 'https://prestige-english.com/',
@@ -121,7 +192,7 @@ export const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     branding: {
       logo: sfaLogo,
       alt: 'Logo de secretaria de finanzas y administración de michoacán',
@@ -173,7 +244,7 @@ export const experience = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     branding: {
       logo: grupoLiasLogo,
       alt: 'Logo de grupo lias',
