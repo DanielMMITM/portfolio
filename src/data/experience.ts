@@ -83,15 +83,14 @@ export const experience = [
     startDate: '2024/04/01',
     endDate: '2024/09/16',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES: `Para este proyecto en conjunto con 2 compañeros desarrollamos un sistema web administrativo para una consultorio óptico. Llevando a cabo todo el proceso del desarrollo de software, desde la obtención de requerimientos hasta el deploy del sistema en una red LAN. Se desarrollaron las interfaces mediante figma de acuerdo a lo requerido por el cliente.
-    Por parte del backend se manejó una autenticación básica para el sistema y el almacenando de los datos en una base de datos relacional utilizando PostgreSQL en conjunto con Express y TypeScript.
-    Por el lado del frontend se desarrollaron las interfaces de usuario usando React y JavaScript, y para el manejo de algunos componentes se utilizó la librería Material UI.
-    La aplicación está dockerizada de tal manera que el pase a producción fuera lo más sencillo y similar posible.`,
-    descEn: `For this project, together with two teammates, we developed a web-based administrative system for an optical clinic.
-    We handled the entire software development process, from gathering requirements to deploying the system on a local network (LAN). The user interfaces were designed using Figma based on the client specifications.
-    On the backend, we implemented basic authentication for the system and stored data in a relational database using PostgreSQL, along with Express and TypeScript.
-    On the frontend, we developed the user interfaces using React and JavaScript, alsow we used Material UI library.
-    The application was dockerized thinking of a clean trasition to the production environment.`,
+    descES: `En conjunto con dos compañeros desarrollamos un sistema web administrativo para un consultorio óptico, abarcando todo el proceso de desarrollo de software: desde la obtención de requerimientos hasta el despliegue del sistema en una red LAN. Las interfaces fueron diseñadas en Figma conforme a los requerimientos del cliente.
+    En el backend se implementó una autenticación básica y el almacenamiento de datos en una base de datos relacional utilizando PostgreSQL, en conjunto con Express y TypeScript.
+    En el frontend se desarrollaron las interfaces de usuario con React y JavaScript, utilizando la librería Material UI para la gestión de algunos componentes.
+    Además, la aplicación fue dockerizada para facilitar el paso a producción, garantizando un entorno lo más similar posible al de desarrollo.`,
+    descEn: `Together with two teammates, we developed a web-based administrative system for an optical clinic, covering the entire software development process—from gathering requirements to deploying the system on a LAN network. The user interfaces were designed in Figma according to the client's requirements. 
+    On the backend, we implemented basic authentication and data storage in a relational database using PostgreSQL, combined with Express and TypeScript.
+    On the frontend, we built the user interfaces with React and JavaScript, leveraging the Material UI library for a consistent component management.
+    In addition, the application was dockerized to streamline the production release, ensuring an environment as close as possible to development.`,
     tasks: [
       {
         id: 1,
