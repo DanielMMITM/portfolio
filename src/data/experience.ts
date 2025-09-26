@@ -101,12 +101,12 @@ export const experience = [
         id: 2,
         taskDescES:
           'Desarrollo de REST API endpoints usando Express y TypeScript.',
-        taskDescEN: 'Develop REST API endpoints usign Express with TypeScript.',
+        taskDescEN: 'Develop REST API endpoints using Express with TypeScript.',
       },
       {
         id: 3,
         taskDescES:
-          'Usage of common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
+          'Uso de librerías populares como Zod, Prisma, Bcrypt, JWT, etc.',
         taskDescEN:
           'Usage of common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
       },
@@ -116,11 +116,6 @@ export const experience = [
           'Participé en el frontend actualizando algunos componentes para mejorar el rendimiento y la experiencia del usuario.',
         taskDescEN:
           'Paticipate in the frontend development by enhancing the components to improve the performance and UI/UX using React.',
-      },
-      {
-        id: 4,
-        taskDescES: 'Trabajé con la metodología SCRUM.',
-        taskDescEN: 'Work with SCRUM methodology.',
       },
       {
         id: 5,
