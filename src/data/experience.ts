@@ -76,7 +76,7 @@ export const experience = [
     branding: {
       logo: companyDefaultLogo,
       alt: 'Logo de clínica oftalmológica',
-      link: null,
+      link: '',
       lightModeHelp: false,
     },
     employer: 'OPTICA',
